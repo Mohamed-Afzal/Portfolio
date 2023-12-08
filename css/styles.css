@@ -1,0 +1,93 @@
+/* Sidebar Start */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--primary-bg);
+    box-shadow: 1px 5px 10px #d1d1d1;
+    z-index: 1;
+}
+
+.sidebar .logo{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 5rem 0 5rem 0;
+}
+
+.sidebar .logo i{
+    color: var(--link);
+}
+
+.sidebar .navigation ul li{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.sidebar .navigation ul li:hover,
+.sidebar .navigation ul li:active,
+.sidebar .navigation ul li:focus{
+    background-color: var(--field-hover);
+}
+
+.sidebar .navigation ul li a{
+    text-decoration: none;
+    color: var(--link);
+    font-size: 20px;
+    transition: all ease 0.4s;
+}
+
+.sidebar .navigation ul li:hover a,
+.sidebar .navigation ul li:active a,
+.sidebar .navigation ul li:focus a{
+    color: #ffffff  ;
+}
+/* Sidebar End */
+
+/* Main Start*/
+main{
+    margin-left: 250px;
+    width: auto;
+}
+/* Main End*/
+
+.primary{
+    background: var(--primary-bg);
+    height: 100vh;
+}
+
+.secondary{
+    background: var(--secondary-bg);
+    height: 100vh;
+}
+
+/* intro Start */
+.name{
+    font-weight: 400;    
+    font-size: 10.3rem;
+}
+
+.catchy-word{
+    font-size: large;
+    opacity: 0.5;
+}
+
+.about{
+    font-size: large;
+}
+
+/* Card */
+.card{
+    background-color: transparent;
+}
+
+/* CV */
+.cv{
+    border: 2px solid var(--bordercolor);
+    height: 70vh;
+}
